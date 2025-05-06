@@ -1,0 +1,52 @@
+{
+  "name": "nuxt-ui-pro-starter-laravel",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "build": "vite build",
+    "build:ssr": "vite build && vite build --ssr",
+    "dev": "vite",
+    "format": "prettier --write resources/",
+    "format:check": "prettier --check resources/",
+    "lint": "eslint .",
+    "typecheck": "vue-tsc --noEmit"
+  },
+  "devDependencies": {
+    "@eslint/js": "^9.26.0",
+    "@types/node": "^22.15.12",
+    "@vue/eslint-config-typescript": "^14.5.0",
+    "eslint": "^9.26.0",
+    "eslint-config-prettier": "^10.1.2",
+    "eslint-plugin-vue": "^10.1.0",
+    "prettier": "^3.5.3",
+    "prettier-plugin-organize-imports": "^4.1.0",
+    "prettier-plugin-tailwindcss": "^0.6.11",
+    "typescript-eslint": "^8.32.0",
+    "vue-tsc": "^2.2.10"
+  },
+  "dependencies": {
+    "@inertiajs/vue3": "^2.0.8",
+    "@nuxt/ui-pro": "^3.1.1",
+    "@vitejs/plugin-vue": "^5.2.3",
+    "@vueuse/core": "^13.1.0",
+    "clsx": "^2.1.1",
+    "concurrently": "^9.1.2",
+    "laravel-vite-plugin": "^1.2",
+    "typescript": "^5.8.3",
+    "vite": "^6.3.5",
+    "vue": "^3.5.13",
+    "ziggy-js": "^2.5.2"
+  },
+  "optionalDependencies": {
+    "@rollup/rollup-linux-x64-gnu": "4.40.2",
+    "@tailwindcss/oxide-linux-x64-gnu": "^4.1.5",
+    "lightningcss-linux-x64-gnu": "^1.29.3"
+  },
+  "pnpm": {
+    "ignoredBuiltDependencies": [
+      "esbuild",
+      "vue-demi"
+    ]
+  },
+  "packageManager": "pnpm@10.10.0"
+}
