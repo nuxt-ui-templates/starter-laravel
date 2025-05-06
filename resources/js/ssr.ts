@@ -3,7 +3,7 @@ import createServer from '@inertiajs/vue3/server'
 import { renderToString } from '@vue/server-renderer'
 import { resolvePageComponent } from 'laravel-vite-plugin/inertia-helpers'
 import { createSSRApp, DefineComponent, h } from 'vue'
-import { route as ziggyRoute } from 'ziggy-js'
+import { route as ziggyRoute, Config } from 'ziggy-js'
 
 const appName = import.meta.env.VITE_APP_NAME || 'Laravel Starter Template'
 
@@ -18,18 +18,25 @@ createServer((page) =>
 
       // Configure Ziggy for SSR...
       const ziggyConfig = {
-        ...page.props.ziggy,
-        location: new URL(page.props.ziggy.location)
+        ...(page.props.ziggy as Config),
+        location: new URL((page.props.ziggy as { location: string }).location)
       }
 
       // Create route function...
-      const route = (name: string, params?: any, absolute?: boolean) => ziggyRoute(name, params, absolute, ziggyConfig)
+      const route = ((name?: string, params?: any, absolute?: boolean) => {
+        if (!name) return ziggyRoute(undefined, undefined, absolute, ziggyConfig)
+        return ziggyRoute(name, params, absolute, ziggyConfig)
+      }) as {
+        (): any;
+        (name: string, params?: any, absolute?: boolean): string;
+      }
 
       // Make route function available globally...
       app.config.globalProperties.route = route
 
       // Make route function available globally for SSR...
       if (typeof window === 'undefined') {
+        // @ts-expect-error - This is a global variable
         global.route = route
       }
 

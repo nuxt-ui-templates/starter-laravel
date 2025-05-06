@@ -15,7 +15,3 @@
   --color-scarlet-800: #8e1a00;
   --color-scarlet-950: #4a0d00;
 }
-
-.dark {
-  --ui-primary: var(--ui-color-primary-500);
-}
