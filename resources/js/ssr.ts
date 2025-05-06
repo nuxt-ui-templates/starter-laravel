@@ -3,7 +3,7 @@ import createServer from '@inertiajs/vue3/server'
 import { renderToString } from '@vue/server-renderer'
 import { resolvePageComponent } from 'laravel-vite-plugin/inertia-helpers'
 import { createSSRApp, DefineComponent, h } from 'vue'
-import { route as ziggyRoute, Config } from 'ziggy-js'
+import { Config, route as ziggyRoute } from 'ziggy-js'
 
 const appName = import.meta.env.VITE_APP_NAME || 'Laravel Starter Template'
 
@@ -27,8 +27,8 @@ createServer((page) =>
         if (!name) return ziggyRoute(undefined, undefined, absolute, ziggyConfig)
         return ziggyRoute(name, params, absolute, ziggyConfig)
       }) as {
-        (): any;
-        (name: string, params?: any, absolute?: boolean): string;
+        (): any
+        (name: string, params?: any, absolute?: boolean): string
       }
 
       // Make route function available globally...
