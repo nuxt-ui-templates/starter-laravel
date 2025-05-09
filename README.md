@@ -14,6 +14,24 @@ Make sure to install the dependencies:
 pnpm install
 ```
 
+Copy the example environment file to create your .env file:
+
+```bash
+cp .env.example .env
+```
+
+Generate a new application key for your Laravel application:
+
+```bash
+php artisan key:generate
+```
+
+Set up your database by running the migrations:
+
+```bash
+php artisan migrate
+```
+
 ## Development Server
 
 Start the development server on `http://localhost:8000`:
