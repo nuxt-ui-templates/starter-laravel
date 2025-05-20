@@ -69,7 +69,7 @@ To start the development server, run:
 
 Open http://localhost in your browser.
 
-To use SSR you need to run the following command in a separate terminal:
+To test your SSR build you need to run the following commands:
 
 ```bash
 ./vendor/bin/sail pnpm build:ssr
