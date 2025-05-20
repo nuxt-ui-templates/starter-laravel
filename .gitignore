@@ -29,3 +29,4 @@ yarn-error.log
 # Auto-generated type declarations
 auto-imports.d.ts
 components.d.ts
+.pnpm-store
