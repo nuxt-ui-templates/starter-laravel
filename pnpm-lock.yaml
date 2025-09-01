@@ -27,8 +27,8 @@ importers:
         specifier: ^9.1.2
         version: 9.1.2
       laravel-vite-plugin:
-        specifier: ^1.2
-        version: 1.2.0(vite@6.3.5(@types/node@22.15.12)(jiti@2.4.2)(lightningcss@1.29.2))
+        specifier: ^2.0.1
+        version: 2.0.1(vite@6.3.5(@types/node@22.15.12)(jiti@2.4.2)(lightningcss@1.29.2))
       typescript:
         specifier: ^5.8.3
         version: 5.8.3
@@ -1633,12 +1633,12 @@ packages:
   kolorist@1.8.0:
     resolution: {integrity: sha512-Y+60/zizpJ3HRH8DCss+q95yr6145JXZo46OTpFvDZWLfRCE4qChOyk1b26nMaNpfHHgxagk9dXT5OP0Tfe+dQ==}
 
-  laravel-vite-plugin@1.2.0:
-    resolution: {integrity: sha512-R0pJ+IcTVeqEMoKz/B2Ij57QVq3sFTABiFmb06gAwFdivbOgsUtuhX6N2MGLEArajrS3U5JbberzwOe7uXHMHQ==}
-    engines: {node: ^18.0.0 || ^20.0.0 || >=22.0.0}
+  laravel-vite-plugin@2.0.1:
+    resolution: {integrity: sha512-zQuvzWfUKQu9oNVi1o0RZAJCwhGsdhx4NEOyrVQwJHaWDseGP9tl7XUPLY2T8Cj6+IrZ6lmyxlR1KC8unf3RLA==}
+    engines: {node: ^20.19.0 || >=22.12.0}
     hasBin: true
     peerDependencies:
-      vite: ^5.0.0 || ^6.0.0
+      vite: ^7.0.0
 
   levn@0.4.1:
     resolution: {integrity: sha512-+bT2uH4E5LGE7h/n3evcS/sQlJXCpIp6ym8OWJ5eV6+67Dsql/LaaT7qJBAt2rzfoa/5QBGBhxDix1dMt2kQKQ==}
@@ -4348,7 +4348,7 @@ snapshots:
 
   kolorist@1.8.0: {}
 
-  laravel-vite-plugin@1.2.0(vite@6.3.5(@types/node@22.15.12)(jiti@2.4.2)(lightningcss@1.29.2)):
+  laravel-vite-plugin@2.0.1(vite@6.3.5(@types/node@22.15.12)(jiti@2.4.2)(lightningcss@1.29.2)):
     dependencies:
       picocolors: 1.1.1
       vite: 6.3.5(@types/node@22.15.12)(jiti@2.4.2)(lightningcss@1.29.2)
