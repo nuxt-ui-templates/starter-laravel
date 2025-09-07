@@ -6,6 +6,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
   <title inertia>{{ config('app.name', 'Laravel Starter Template') }}</title>
+  <meta name="description" content="A production-ready starter template powered by Nuxt UI. Build beautiful, accessible, and performant applications in minutes, not hours.">
 
   <link rel="icon" href="/favicon.ico" sizes="any">
   <link rel="icon" href="/favicon.svg" type="image/svg+xml">
