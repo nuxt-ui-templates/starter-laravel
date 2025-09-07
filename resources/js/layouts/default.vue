@@ -7,7 +7,7 @@ import { Link } from '@inertiajs/vue3'
     <UHeader>
       <template #left>
         <Link href="/">
-          <LogoPro class="h-6 w-auto shrink-0" />
+          <AppLogo class="h-6 w-auto shrink-0" />
         </Link>
       </template>
 
@@ -15,7 +15,7 @@ import { Link } from '@inertiajs/vue3'
         <UColorModeButton />
 
         <UButton
-          to="https://github.com/nuxt-ui-pro/starter-laravel"
+          to="https://github.com/nuxt-ui-templates/starter-laravel"
           target="_blank"
           icon="simple-icons:github"
           aria-label="GitHub"
@@ -33,12 +33,14 @@ import { Link } from '@inertiajs/vue3'
 
     <UFooter>
       <template #left>
-        <p class="text-muted text-sm">Copyright © {{ new Date().getFullYear() }}</p>
+        <p class="text-muted text-sm">
+          Built with Nuxt UI • © {{ new Date().getFullYear() }}
+        </p>
       </template>
 
       <template #right>
         <UButton
-          to="https://github.com/nuxt-ui-pro/starter-laravel"
+          to="https://github.com/nuxt-ui-templates/starter-laravel"
           target="_blank"
           icon="simple-icons:github"
           aria-label="GitHub"

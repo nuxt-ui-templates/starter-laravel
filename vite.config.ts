@@ -3,7 +3,7 @@ import laravel from 'laravel-vite-plugin';
 import path from 'path';
 import { resolve } from 'node:path';
 import { defineConfig } from 'vite';
-import uiPro from '@nuxt/ui-pro/vite'
+import ui from '@nuxt/ui/vite'
 
 export default defineConfig({
   plugins: [
@@ -20,7 +20,7 @@ export default defineConfig({
         },
       },
     }),
-    uiPro({
+    ui({
       inertia: true,
       components: {
         dirs: ['resources/js/components'],

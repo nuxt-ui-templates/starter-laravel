@@ -1,5 +1,5 @@
 @import 'tailwindcss' source('../..');
-@import '@nuxt/ui-pro';
+@import '@nuxt/ui';
 
 @theme static {
   --font-sans: 'Instrument Sans', sans-serif;
