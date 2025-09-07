@@ -33,9 +33,7 @@ import { Link } from '@inertiajs/vue3'
 
     <UFooter>
       <template #left>
-        <p class="text-muted text-sm">
-          Built with Nuxt UI • © {{ new Date().getFullYear() }}
-        </p>
+        <p class="text-muted text-sm">Built with Nuxt UI • © {{ new Date().getFullYear() }}</p>
       </template>
 
       <template #right>
