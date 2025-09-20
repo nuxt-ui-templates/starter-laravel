@@ -5,7 +5,7 @@
 
 This Laravel starter is based on [laravel/vue-starter-kit](https://github.com/laravel/vue-starter-kit) and demonstrate how to use [Nuxt UI](https://ui.nuxt.com) in a [Laravel](https://laravel.com/) application using [Inertia.js](https://inertiajs.com/).
 
-- [Documentation](https://ui4.nuxt.com/docs/getting-started/installation/nuxt)
+- [Documentation](https://ui.nuxt.com/docs/getting-started/installation/nuxt)
 
 ## Setup
 

@@ -12,7 +12,7 @@ defineOptions({ layout: Layout })
       :links="[
         {
           label: 'Get started',
-          to: 'https://ui4.nuxt.com/docs/getting-started/installation/vue',
+          to: 'https://ui.nuxt.com/docs/getting-started/installation/vue',
           target: '_blank',
           trailingIcon: 'i-lucide-arrow-right',
           size: 'xl'
@@ -78,7 +78,7 @@ defineOptions({ layout: Layout })
         :links="[
           {
             label: 'Start building',
-            to: 'https://ui4.nuxt.com/docs/getting-started/installation/vue',
+            to: 'https://ui.nuxt.com/docs/getting-started/installation/vue',
             target: '_blank',
             trailingIcon: 'i-lucide-arrow-right',
             color: 'neutral'
