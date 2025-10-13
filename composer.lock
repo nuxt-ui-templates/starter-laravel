@@ -4,7 +4,7 @@
     "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
     "This file is @generated automatically"
   ],
-  "content-hash": "555b2628da1f5a0ff24ab4531f9237b8",
+  "content-hash": "d2caef6227b98a1ad671a350997eb838",
   "packages": [
     {
       "name": "brick/math",
@@ -1055,16 +1055,16 @@
     },
     {
       "name": "inertiajs/inertia-laravel",
-      "version": "v2.0.6",
+      "version": "v2.0.10",
       "source": {
         "type": "git",
         "url": "https://github.com/inertiajs/inertia-laravel.git",
-        "reference": "6d0afc3237c370036de4a703927b17a4e7b83298"
+        "reference": "07da425d58a3a0e3ace9c296e67bd897a6e47009"
       },
       "dist": {
         "type": "zip",
-        "url": "https://api.github.com/repos/inertiajs/inertia-laravel/zipball/6d0afc3237c370036de4a703927b17a4e7b83298",
-        "reference": "6d0afc3237c370036de4a703927b17a4e7b83298",
+        "url": "https://api.github.com/repos/inertiajs/inertia-laravel/zipball/07da425d58a3a0e3ace9c296e67bd897a6e47009",
+        "reference": "07da425d58a3a0e3ace9c296e67bd897a6e47009",
         "shasum": ""
       },
       "require": {
@@ -1119,22 +1119,22 @@
       ],
       "support": {
         "issues": "https://github.com/inertiajs/inertia-laravel/issues",
-        "source": "https://github.com/inertiajs/inertia-laravel/tree/v2.0.6"
+        "source": "https://github.com/inertiajs/inertia-laravel/tree/v2.0.10"
       },
-      "time": "2025-08-26T06:17:48+00:00"
+      "time": "2025-09-28T21:21:36+00:00"
     },
     {
       "name": "laravel/framework",
-      "version": "v12.30.1",
+      "version": "v12.33.0",
       "source": {
         "type": "git",
         "url": "https://github.com/laravel/framework.git",
-        "reference": "7f61e8679f9142f282a0184ac7ef9e3834bfd023"
+        "reference": "124efc5f09d4668a4dc13f94a1018c524a58bcb1"
       },
       "dist": {
         "type": "zip",
-        "url": "https://api.github.com/repos/laravel/framework/zipball/7f61e8679f9142f282a0184ac7ef9e3834bfd023",
-        "reference": "7f61e8679f9142f282a0184ac7ef9e3834bfd023",
+        "url": "https://api.github.com/repos/laravel/framework/zipball/124efc5f09d4668a4dc13f94a1018c524a58bcb1",
+        "reference": "124efc5f09d4668a4dc13f94a1018c524a58bcb1",
         "shasum": ""
       },
       "require": {
@@ -1162,7 +1162,6 @@
         "monolog/monolog": "^3.0",
         "nesbot/carbon": "^3.8.4",
         "nunomaduro/termwind": "^2.0",
-        "phiki/phiki": "^2.0.0",
         "php": "^8.2",
         "psr/container": "^1.1.1|^2.0.1",
         "psr/log": "^1.0|^2.0|^3.0",
@@ -1341,7 +1340,7 @@
         "issues": "https://github.com/laravel/framework/issues",
         "source": "https://github.com/laravel/framework"
       },
-      "time": "2025-09-18T21:07:07+00:00"
+      "time": "2025-10-07T14:30:39+00:00"
     },
     {
       "name": "laravel/prompts",
@@ -2583,77 +2582,6 @@
         }
       ],
       "time": "2025-05-08T08:14:37+00:00"
-    },
-    {
-      "name": "phiki/phiki",
-      "version": "v2.0.4",
-      "source": {
-        "type": "git",
-        "url": "https://github.com/phikiphp/phiki.git",
-        "reference": "160785c50c01077780ab217e5808f00ab8f05a13"
-      },
-      "dist": {
-        "type": "zip",
-        "url": "https://api.github.com/repos/phikiphp/phiki/zipball/160785c50c01077780ab217e5808f00ab8f05a13",
-        "reference": "160785c50c01077780ab217e5808f00ab8f05a13",
-        "shasum": ""
-      },
-      "require": {
-        "ext-mbstring": "*",
-        "league/commonmark": "^2.5.3",
-        "php": "^8.2",
-        "psr/simple-cache": "^3.0"
-      },
-      "require-dev": {
-        "illuminate/support": "^11.45",
-        "laravel/pint": "^1.18.1",
-        "orchestra/testbench": "^9.15",
-        "pestphp/pest": "^3.5.1",
-        "phpstan/extension-installer": "^1.4.3",
-        "phpstan/phpstan": "^2.0",
-        "symfony/var-dumper": "^7.1.6"
-      },
-      "type": "library",
-      "extra": {
-        "laravel": {
-          "providers": [
-            "Phiki\\Adapters\\Laravel\\PhikiServiceProvider"
-          ]
-        }
-      },
-      "autoload": {
-        "psr-4": {
-          "Phiki\\": "src/"
-        }
-      },
-      "notification-url": "https://packagist.org/downloads/",
-      "license": [
-        "MIT"
-      ],
-      "authors": [
-        {
-          "name": "Ryan Chandler",
-          "email": "support@ryangjchandler.co.uk",
-          "homepage": "https://ryangjchandler.co.uk",
-          "role": "Developer"
-        }
-      ],
-      "description": "Syntax highlighting using TextMate grammars in PHP.",
-      "support": {
-        "issues": "https://github.com/phikiphp/phiki/issues",
-        "source": "https://github.com/phikiphp/phiki/tree/v2.0.4"
-      },
-      "funding": [
-        {
-          "url": "https://github.com/sponsors/ryangjchandler",
-          "type": "github"
-        },
-        {
-          "url": "https://buymeacoffee.com/ryangjchandler",
-          "type": "other"
-        }
-      ],
-      "time": "2025-09-20T17:21:02+00:00"
     },
     {
       "name": "phpoption/phpoption",
@@ -6833,16 +6761,16 @@
     },
     {
       "name": "laravel/sail",
-      "version": "v1.45.0",
+      "version": "v1.46.0",
       "source": {
         "type": "git",
         "url": "https://github.com/laravel/sail.git",
-        "reference": "019a2933ff4a9199f098d4259713f9bc266a874e"
+        "reference": "eb90c4f113c4a9637b8fdd16e24cfc64f2b0ae6e"
       },
       "dist": {
         "type": "zip",
-        "url": "https://api.github.com/repos/laravel/sail/zipball/019a2933ff4a9199f098d4259713f9bc266a874e",
-        "reference": "019a2933ff4a9199f098d4259713f9bc266a874e",
+        "url": "https://api.github.com/repos/laravel/sail/zipball/eb90c4f113c4a9637b8fdd16e24cfc64f2b0ae6e",
+        "reference": "eb90c4f113c4a9637b8fdd16e24cfc64f2b0ae6e",
         "shasum": ""
       },
       "require": {
@@ -6892,7 +6820,7 @@
         "issues": "https://github.com/laravel/sail/issues",
         "source": "https://github.com/laravel/sail"
       },
-      "time": "2025-08-25T19:28:31+00:00"
+      "time": "2025-09-23T13:44:39+00:00"
     },
     {
       "name": "mockery/mockery",
@@ -9548,7 +9476,7 @@
   "prefer-stable": true,
   "prefer-lowest": false,
   "platform": {
-    "php": "^8.4.12"
+    "php": "^8.4.13"
   },
   "platform-dev": {},
   "plugin-api-version": "2.6.0"
