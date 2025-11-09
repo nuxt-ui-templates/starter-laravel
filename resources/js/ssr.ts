@@ -4,6 +4,7 @@ import { renderToString } from '@vue/server-renderer'
 import { resolvePageComponent } from 'laravel-vite-plugin/inertia-helpers'
 import { createSSRApp, DefineComponent, h } from 'vue'
 import { Config, route as ziggyRoute } from 'ziggy-js'
+import ui from '@nuxt/ui/vue-plugin'
 
 const appName = import.meta.env.VITE_APP_NAME || 'Laravel Starter Template'
 
@@ -40,7 +41,9 @@ createServer((page) =>
         global.route = route
       }
 
-      app.use(plugin)
+      app
+        .use(plugin)
+        .use(ui)
 
       return app
     }
