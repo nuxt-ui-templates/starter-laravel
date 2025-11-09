@@ -3,8 +3,7 @@
   "private": true,
   "type": "module",
   "scripts": {
-    "build": "vite build",
-    "build:ssr": "vite build && vite build --ssr",
+    "build": "vite build && vite build --ssr",
     "dev": "vite",
     "format": "prettier --write resources/",
     "format:check": "prettier --check resources/",
@@ -46,7 +45,10 @@
     "ignoredBuiltDependencies": [
       "esbuild",
       "vue-demi"
-    ]
+    ],
+    "patchedDependencies": {
+      "@nuxt/ui": "patches/@nuxt__ui.patch"
+    }
   },
   "packageManager": "pnpm@10.18.3"
 }

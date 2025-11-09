@@ -4,6 +4,11 @@ settings:
   autoInstallPeers: true
   excludeLinksFromLockfile: false
 
+patchedDependencies:
+  '@nuxt/ui':
+    hash: 8eb9106bcd3537a1f31c1548915251af2612ef979f93892bb2591df40d48a755
+    path: patches/@nuxt__ui.patch
+
 importers:
 
   .:
@@ -13,7 +18,7 @@ importers:
         version: 2.2.8(vue@3.5.22(typescript@5.9.3))
       '@nuxt/ui':
         specifier: ^4.0.1
-        version: 4.0.1(@babel/parser@7.28.4)(@inertiajs/vue3@2.2.8(vue@3.5.22(typescript@5.9.3)))(axios@1.12.2)(embla-carousel@8.6.0)(typescript@5.9.3)(vite@7.1.11(@types/node@24.8.1)(jiti@2.6.0)(lightningcss@1.30.1))(vue@3.5.22(typescript@5.9.3))(zod@4.1.11)
+        version: 4.0.1(patch_hash=8eb9106bcd3537a1f31c1548915251af2612ef979f93892bb2591df40d48a755)(@babel/parser@7.28.4)(@inertiajs/vue3@2.2.8(vue@3.5.22(typescript@5.9.3)))(axios@1.12.2)(embla-carousel@8.6.0)(typescript@5.9.3)(vite@7.1.11(@types/node@24.8.1)(jiti@2.6.0)(lightningcss@1.30.1))(vue@3.5.22(typescript@5.9.3))(zod@4.1.11)
       '@vitejs/plugin-vue':
         specifier: ^6.0.1
         version: 6.0.1(vite@7.1.11(@types/node@24.8.1)(jiti@2.6.0)(lightningcss@1.30.1))(vue@3.5.22(typescript@5.9.3))
@@ -2909,7 +2914,7 @@ snapshots:
       std-env: 3.9.0
       ufo: 1.6.1
 
-  '@nuxt/ui@4.0.1(@babel/parser@7.28.4)(@inertiajs/vue3@2.2.8(vue@3.5.22(typescript@5.9.3)))(axios@1.12.2)(embla-carousel@8.6.0)(typescript@5.9.3)(vite@7.1.11(@types/node@24.8.1)(jiti@2.6.0)(lightningcss@1.30.1))(vue@3.5.22(typescript@5.9.3))(zod@4.1.11)':
+  '@nuxt/ui@4.0.1(patch_hash=8eb9106bcd3537a1f31c1548915251af2612ef979f93892bb2591df40d48a755)(@babel/parser@7.28.4)(@inertiajs/vue3@2.2.8(vue@3.5.22(typescript@5.9.3)))(axios@1.12.2)(embla-carousel@8.6.0)(typescript@5.9.3)(vite@7.1.11(@types/node@24.8.1)(jiti@2.6.0)(lightningcss@1.30.1))(vue@3.5.22(typescript@5.9.3))(zod@4.1.11)':
     dependencies:
       '@ai-sdk/vue': 2.0.68(vue@3.5.22(typescript@5.9.3))(zod@4.1.11)
       '@iconify/vue': 5.0.0(vue@3.5.22(typescript@5.9.3))

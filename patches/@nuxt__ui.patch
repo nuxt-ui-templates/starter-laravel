@@ -1,0 +1,13 @@
+diff --git a/dist/runtime/inertia/stubs.js b/dist/runtime/inertia/stubs.js
+index ace46882188bf6d205b6038fa07eea6608b534e3..6318f8599fb972a9f9f645c1ab07c279e1d1fd70 100644
+--- a/dist/runtime/inertia/stubs.js
++++ b/dist/runtime/inertia/stubs.js
+@@ -65,7 +65,7 @@ const hooks = createHooks();
+ export function useNuxtApp() {
+   return {
+     isHydrating: true,
+-    payload: { serverRendered: false },
++    payload: { serverRendered: import.meta.env.SSR },
+     hooks,
+     hook: hooks.hook
+   };
