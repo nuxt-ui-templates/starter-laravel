@@ -4,7 +4,7 @@
     "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
     "This file is @generated automatically"
   ],
-  "content-hash": "17c3229f81e136e3a74b0922ffb5d67a",
+  "content-hash": "6a065d758e4c8ea9c2dcb8dd58353c38",
   "packages": [
     {
       "name": "brick/math",
@@ -1125,16 +1125,16 @@
     },
     {
       "name": "laravel/framework",
-      "version": "v12.34.0",
+      "version": "v12.37.0",
       "source": {
         "type": "git",
         "url": "https://github.com/laravel/framework.git",
-        "reference": "f9ec5a5d88bc8c468f17b59f88e05c8ac3c8d687"
+        "reference": "3c3c4ad30f5b528b164a7c09aa4ad03118c4c125"
       },
       "dist": {
         "type": "zip",
-        "url": "https://api.github.com/repos/laravel/framework/zipball/f9ec5a5d88bc8c468f17b59f88e05c8ac3c8d687",
-        "reference": "f9ec5a5d88bc8c468f17b59f88e05c8ac3c8d687",
+        "url": "https://api.github.com/repos/laravel/framework/zipball/3c3c4ad30f5b528b164a7c09aa4ad03118c4c125",
+        "reference": "3c3c4ad30f5b528b164a7c09aa4ad03118c4c125",
         "shasum": ""
       },
       "require": {
@@ -1340,7 +1340,7 @@
         "issues": "https://github.com/laravel/framework/issues",
         "source": "https://github.com/laravel/framework"
       },
-      "time": "2025-10-14T13:58:31+00:00"
+      "time": "2025-11-04T15:39:33+00:00"
     },
     {
       "name": "laravel/prompts",
@@ -6761,16 +6761,16 @@
     },
     {
       "name": "laravel/sail",
-      "version": "v1.46.0",
+      "version": "v1.47.0",
       "source": {
         "type": "git",
         "url": "https://github.com/laravel/sail.git",
-        "reference": "eb90c4f113c4a9637b8fdd16e24cfc64f2b0ae6e"
+        "reference": "9a11e822238167ad8b791e4ea51155d25cf4d8f2"
       },
       "dist": {
         "type": "zip",
-        "url": "https://api.github.com/repos/laravel/sail/zipball/eb90c4f113c4a9637b8fdd16e24cfc64f2b0ae6e",
-        "reference": "eb90c4f113c4a9637b8fdd16e24cfc64f2b0ae6e",
+        "url": "https://api.github.com/repos/laravel/sail/zipball/9a11e822238167ad8b791e4ea51155d25cf4d8f2",
+        "reference": "9a11e822238167ad8b791e4ea51155d25cf4d8f2",
         "shasum": ""
       },
       "require": {
@@ -6783,7 +6783,7 @@
       },
       "require-dev": {
         "orchestra/testbench": "^7.0|^8.0|^9.0|^10.0",
-        "phpstan/phpstan": "^1.10"
+        "phpstan/phpstan": "^2.0"
       },
       "bin": [
         "bin/sail"
@@ -6820,7 +6820,7 @@
         "issues": "https://github.com/laravel/sail/issues",
         "source": "https://github.com/laravel/sail"
       },
-      "time": "2025-09-23T13:44:39+00:00"
+      "time": "2025-10-28T13:55:29+00:00"
     },
     {
       "name": "mockery/mockery",
@@ -9476,7 +9476,7 @@
   "prefer-stable": true,
   "prefer-lowest": false,
   "platform": {
-    "php": "^8.4.13"
+    "php": "^8.4.14"
   },
   "platform-dev": {},
   "plugin-api-version": "2.6.0"
